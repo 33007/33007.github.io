@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+@import url("reset.css");
+body {background:#280507;}
+#testheader{width:100%;height:161px;background:#280507 url(http://103.17.118.203:809/images/linetest_top.jpg) no-repeat center top;}
+#content_bg {width:100%;overflow:hidden;background:#280507 url(http://103.17.118.203:809/images/linetest_content.jpg) no-repeat center top;}
+#content {width:1000px;min-height:610px;margin:0 auto;color:#fff;padding-top:150px;}
+
+#content .test {float:left;width:550px;overflow:hidden;font-family:"微软雅黑";}
+#content .help {float:right;width:400px;overflow:hidden;min-height:600px;font-size:14px;padding-top:50px;}
+
+#content .test h2 {display:block;width:100%;height:40px;line-height:40px;margin-bottom:10px;text-indent:20px;font-family:"微软雅黑";font-size:16px;color:#fff;}
+#content .test h2 span{color:#ddb463;}
+#content .test div {width:500px;height:40px;margin:0 0 5px 20px;overflow:hidden;font-size:13px;}
+
+#content .help p {line-height:200%;font-size:12px;}
+#content .help a {display:block;width:164px;height:53px;line-height:45px;font-family:"微软雅黑";font-size:13px;text-indent:15px;float:left;margin-right:20px;text-indent:-9999px;}
+#content .help a.button01{background:url(http://103.17.118.203:809/images/an03.png) no-repeat;}
+#content .help a.button02{background:url(http://103.17.118.203:809/images/an04.png) no-repeat;}
+.formclass {width:100%;margin-left:20px;}
+.formclass input{line-height:35px;height:33px;vertical-align:middle;font-family:"微软雅黑";}
+.msinput{background:#280507; border:1px solid #6f1518;text-align:center;color:#fff;width:83px;margin-right:15px;}
+.urlinput{background:#280507; border:1px solid #6f1518;color:#fff;width:233px;padding-left:15px;margin:0 15px;}
+.buttonopen{width:89px; height:33px;background:url(http://103.17.118.203:809/images/an01.png) no-repeat center center; cursor:pointer;border:none;}
+.tline{margin-bottom:8px;}
+.tline img {position:relative;top:6px;}
+.formclass center {margin:10px 0 30px 20px;}
+.formclass center input {background:none;color:#fff;cursor:pointer;border:none;margin:0;padding:0;}
+	
+#footer {width:100%;height:97px;background:#280507 url(http://103.17.118.203:809/images/linetest_foot.jpg) no-repeat center top;}
+
