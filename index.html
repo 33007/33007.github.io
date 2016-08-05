@@ -6,6 +6,17 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
+<script type="text/javascript">
+      //判断浏览器跳转手机站
+      try {
+      	var urlhash = window.location.hash;
+      	if (!urlhash.match("fromapp")) {
+      		if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {
+      			window.location = "http://wap.2646.com/wap/";
+      		}
+      	}
+      } catch (err) {}
+</script>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
